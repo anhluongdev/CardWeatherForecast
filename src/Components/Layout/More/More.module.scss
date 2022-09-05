@@ -1,0 +1,25 @@
+.signup-btn {
+    text-decoration: none;
+    color: rgb(74, 64, 64);
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    &:hover {
+        color: var(--primary);
+        text-decoration: underline;
+    }
+}
+
+.login-btn {
+    background-color: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    margin: 0 10px;
+    &:hover {
+        background-color: #fff;
+        border: 1px solid var(--primary);
+        color: var(--primary);
+    }
+}

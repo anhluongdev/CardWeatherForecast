@@ -1,0 +1,8 @@
+.result-item {
+    text-decoration: none;
+    color: rgb(103, 98, 98);
+    padding: 5px 0;
+    &:hover {
+        color: var(--primary);
+    }
+}

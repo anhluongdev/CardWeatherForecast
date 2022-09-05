@@ -1,0 +1,14 @@
+.wrapperHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted #ccc;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 3;
+}
